@@ -37,7 +37,7 @@
        
       "description":"put A name for your bot",
       "value":"INZZI-BARAKA-MD-V1",
-      "required":false
+      "required":true
 
     } ,
      "BOT_MENU_LINKS" : {
@@ -56,8 +56,8 @@
 	,
     "HEROKU_API_KEY": {
     "description": "HRKU-f49f3cb7-c4ac-4b9c-bc19-f934d752f631",
-     "value":"yes",
-      "required" :false
+     "value":"HRKU-f49f3cb7-c4ac-4b9c-bc19-f934d752f631",
+      "required" :true
     },
   "HEROKU_APP_NAME": {
     "description": "insert your heroku APP NAME (this is optionnal)",
@@ -75,20 +75,20 @@
     {
     
     "desc": "Your Name",
-    "required": false,
+    "required": true,
     "value": "Afolabi Yusuf"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
-    "required":false,
+    "required":true,
     "value": "2348061693101"
   },
     "WARN_COUNT":
   {
     "desc": "this is the limit of warn for warning commandes",
-    "required": false,
+    "required": true,
     "value": "3"
   },
   "STARTING_BOT_MESSAGE":
