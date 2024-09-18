@@ -21,4 +21,4 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["npm", "run" , "baraka.js"]
+CMD ["npm", "run" , "ibrahim.js"]
